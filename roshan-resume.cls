@@ -17,7 +17,7 @@
 \renewcommand\refname{\vskip -1.5cm}
 
 \usepackage{enumitem}
-\setlist[itemize]{itemsep=1pt,parsep=1pt, left=0em}
+\setlist[itemize]{itemsep=0pt,parsep=0pt, left=0em}
 
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor} 
