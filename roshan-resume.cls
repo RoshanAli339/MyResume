@@ -45,7 +45,7 @@
 % Name command
 \newcommand{\namesection}[3]{
 	\centering{
-		\fontsize{40pt}{60pt}
+		\fontsize{36pt}{48pt}
 		\fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 
 		\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
 	} \\[5pt]
@@ -64,7 +64,7 @@
 
 % Headings command
 \titleformat{\section}{\color{headings}
-	\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+	\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{16pt}\selectfont \raggedright\uppercase}{}{0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{
