@@ -1,5 +1,5 @@
 % Intro Options
-\ProvidesClass{roshan-resume}[2014/04/30 CV class]
+\ProvidesClass{roshan-resume2}[2014/04/30 CV class]
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1cm, vmargin=0.5cm, a4paper]{geometry}
+\usepackage[hmargin=1cm, vmargin=2cm, a4paper]{geometry} % Adjusted vmargin to 2cm
 \usepackage[hidelinks]{hyperref}
 
 % Publications
@@ -56,7 +56,7 @@
 	\vspace{-15pt}
 }
 
-% Section seperators 
+% Section separators 
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt} 
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
@@ -66,7 +66,7 @@
 \titleformat{\section}{\color{headings}
 	\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{16pt}\selectfont \raggedright\uppercase}{}{0em}{}
 
-% Subeadings command
+% Subheadings command
 \titleformat{\subsection}{
 	\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
 
